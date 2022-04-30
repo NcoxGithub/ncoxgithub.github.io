@@ -10,10 +10,12 @@ img { max-width:100%; }
 /************* End CSS RESETS **************/
 
 body {
-	background:url(images/paper.png);
-	color: #424242;
+	background:url(images/79abd72250c0004e626c1fa1986c9f35.jpg);
+	color: darkolivegreen;
 	font-family: 'Source Sans Pro', sans-serif;
 	padding: 30px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #page {
@@ -23,7 +25,7 @@ body {
 
 header {
 	border-bottom: 3px solid #424242;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 header, footer {
@@ -38,12 +40,64 @@ footer {
 	padding-top: 20px;
 }
 
-#about {
+#shows {
 	padding: 10px;
+	padding-top:20px;
+	
+}
+
+#shows h1{
+	clear: both;
+}
+
+#shows ol{
+	float:left;
+	margin:auto;
+}
+
+#showtitles{
+	padding-left:30px;
+}
+
+#showtitles li{
+	list-style-type:none;
+	text-decoration: none;
+	color: cornflowerblue;
+	font-weight: bold;
+	font-size: 20px;
+	float:left;
+	padding-right: 25px;
+	padding-left:25px;
+}
+
+#showpics li{
+	list-style-type:none;
+	padding:0px;
+	float:left;
+}
+
+img{
+	width:170px;
+	max-height:200px;
+	padding-right:10px;
+	padding-left:10px;
 }
 
 #projects {
 	padding: 10px;
+	padding-bottom: 20px;
+	clear:both;
+}
+
+footer{
+	background: lightgreen;
+	padding:10px;
+	border-style: dotted;
+	border-color: lightcoral;
+}
+
+footer h1{
+	color:darkgoldenrod;
 }
 
 .alignleft {
@@ -60,7 +114,11 @@ h1, h2, h3 {
 
 h1 {
 	font-size:150%;
-	text-transform:uppercase;
+	color:white;
+}
+
+h2{
+	color: cornflowerblue;
 }
 
 header h1 {
